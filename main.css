@@ -17,13 +17,13 @@
 .data_add:hover { cursor: pointer; color: #D71335; }
 
 .list_area { text-align: center; border: 0px solid blue; min-height: 300px; width: 500px; } 
-li { border: 0px solid red; list-style: none; width: 400px; margin: 0 auto; }
-li div { border: 1px solid #909090; width: 20px; height: 20px; border-radius: 50%; position: relative; right: 25px; top: 5px; }
-li p { width: 200px; border: 0px solid orange; font-size: 20px; font-family: 'handlee', }
-li div, li p, img { display: inline-block; }
-ul { padding: 0; margin: 0; }
-.new_item:hover div { border: 2px solid #D71335; cursor: pointer; }
-.new_item:hover p { cursor: pointer; color: #909090; }
+.new_item { border: 0px solid red; list-style: none; width: 400px; margin: 0 auto; }
+.item_box { border: 1px solid #909090; width: 20px; height: 20px; border-radius: 50%; position: relative; right: 25px; top: 5px; }
+.test_item { width: 200px; border: 0px solid orange; font-size: 20px; font-family: 'handlee'; }
+.item_box, .test_item { display: inline-block; }
+.list_are { padding: 0; margin: 0; }
+.item_box:hover { border: 2px solid #D71335; cursor: pointer; }
+.test_item:hover { cursor: pointer; color: #909090; }
 .done_item:hover { cursor: pointer; }
 
 .done_item p { text-decoration: line-through; color: #909090; }
@@ -31,12 +31,10 @@ ul { padding: 0; margin: 0; }
 
 .list_area img { height: 18px; margin-right: 75px; }
 
-.item_wrap { outline: 1px solid #eee; }
-.done_box { outline: 1px solid #eee; display: inline-block; float: left; }
-.item_text { outline: 1px solid #eee; display: inline-block; width: 200px; }
-.delete_wrap { display: inline-block; outline: 1px solid #eee; float: right; text-align: right; }
+.item_wrap { outline: 0px solid #eee; padding-top: 25px; }
+.delete_wrap { display: inline-block; outline: 0px solid #eee; float: right; text-align: right; }
 .delete_img { display: none; }
-.item_wrap:hover .delete_img {  display: block; }
+.delete_img {  display: block; }
 
 .footer_wrap { background-color: #F6F6F6; width: 100%; height: 100px; border: 0px solid red; padding-top: 5px; }
 .footer_wrap p { text-align: center; padding-top: 50px; }
