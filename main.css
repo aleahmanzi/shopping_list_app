@@ -1,6 +1,8 @@
-.fruit_img { background: no-repeat; width: 100%; }
-.hero_wrap { border: 0px solid red; margin: 0px; padding: 1px; font-family: 'handlee'; }
-.hero_wrap p { border: 0px solid green; font-size: 75px; color: white; width: 100%; margin: 0 auto; position: absolute; top: 150px; text-align: center; }
+.header_wrap { outline: 0px sold red; width: 100%; background-color: #eee; }
+.hero_wrap { border: 0px solid blue; font-family: 'handlee'; width: 600px; margin: 0 auto; text-align: center; padding-top: 30px; padding-bottom: 15px; }
+.title { border: 0px solid green; font-size: 75px; color: black; width: 100%; margin: 0 auto; top: 150px; display: inline-block; }
+.cart_img { height: 150px; display: inline-block; }
+
 
 .main_wrap { outline: 0px solid blue; width: 500px; margin: 0 auto; }
 
