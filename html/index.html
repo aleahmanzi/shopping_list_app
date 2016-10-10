@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Handlee|Boogaloo' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<style>
+
+.hero_wrap img { background: no-repeat; width: 100%; }
+.hero_wrap { border: 0px solid red; margin: 0px; padding: 1px; font-family: 'handlee'; }
+.hero_wrap p { border: 0px solid green; font-size: 75px; color: white; width: 100%; margin: 0 auto; position: absolute; top: 150px; text-align: center; }
+
+</style>
+
+<header class="header_wrap">
+  <div class="hero_wrap">
+    <img class="fruit_img" src="../pics/fruit_img.jpeg" alt="fruit_img"/>
+    <p><span>stick to your</span> list.</p>
+  </div><!-- . hero_wrap - -->
+</header><!-- . header_wrap - -->
+
+<style>
+.main_wrap { outline: 0px solid blue; width: 500px; margin: 0 auto; }
+</style>
+
+<main class="main_wrap">
+
+ <style>
+.add_wrap { width: 500px; margin: 0 auto; outline: 0px solid blue; } 
+.add_data { text-align: center; font-size: 18px; }
+
+.form_wrap { width: 500px; padding-top: 25px; } 
+.form_data span { color: #D71335; display: inline-block; }
+
+.data_box { outline: none; border-color: rgba(0,0,0,0); border-bottom: 1px dotted #909090; padding-top: 15px; }
+.data_add { font-size: 20px; border: 0px solid red; }
+.data_add:hover { cursor: pointer; color: #D71335; }
+
+  </style>
+  <div class="add_wrap">
+    <div class="add_data">
+      <div class="form_wrap">
+        <div class="form_data">
+          <input class="data_box" type="text"/>
+          <p class="data_add" type="submit"><span>+</span> new item</p>
+        </div><!-- . form_data - -->
+      </div><!-- . form_wrap - -->
+    </div><!-- . add_data - -->
+  </div><!-- . add_wrap - -->
+  <style>
+
+.list_area { text-align: center; border: 0px solid blue; min-height: 300px; width: 500px; } 
+li { border: 0px solid red; list-style: none; width: 400px; margin: 0 auto; }
+li div { border: 1px solid #909090; width: 20px; height: 20px; border-radius: 50%; position: relative; right: 25px; top: 5px; }
+li p { width: 200px; border: 0px solid orange; font-size: 20px; font-family: 'handlee', }
+li div, li p, img { display: inline-block; }
+ul { padding: 0; margin: 0; }
+.new_item:hover div { border: 2px solid #D71335; cursor: pointer; }
+.new_item:hover p { cursor: pointer; color: #909090; }
+.done_item:hover { cursor: pointer; }
+
+.done_item p { text-decoration: line-through; color: #909090; }
+.done_item div { background-color: #8DE098; border: 0px solid #8DE098; }
+
+.list_area img { height: 18px; margin-right: 75px; }
+
+.item_wrap { outline: 1px solid #eee; }
+.done_box { outline: 1px solid #eee; display: inline-block; float: left; }
+.item_text { outline: 1px solid #eee; display: inline-block; width: 200px; }
+.delete_wrap { display: inline-block; outline: 1px solid #eee; float: right; text-align: right; }
+.delete_img { display: none; }
+.item_wrap:hover .delete_img {  display: block; }
+
+  </style>
+  <ul class="list_area">
+    <li class="new_item">
+      <div class="item_box"></div>
+      <p class="test_item">avacados</p>
+      <img class="delete_img" src="../pics/delete_icon.png" alt="delete_icon"/>
+    </li>
+    <li class="done_item">
+      <div class="item_box"></div>
+      <p class="test_item">coconut water</p>
+      <img class="delete_img" src="../pics/delete_icon.png" alt="delete_icon"/>
+    </li>
+  </ul><!-- . list_area - -->
+</main><!-- . main_wrap - -->
+ <style>
+
+.footer_wrap { background-color: #F6F6F6; width: 100%; height: 100px; border: 0px solid red; padding-top: 5px; }
+.footer_wrap p { text-align: center; padding-top: 50px; }
+.footer_wrap span {color: #D71335; }
+.footer_data { font-family: 'handlee'; }
+
+</style>
+
+<div class="footer_wrap">
+  <div class="footer_data">
+    <p>created by: <span>aleah<span></p>
+
+  </div><!-- . footer_data - -->
+</div><!-- . footer_wrap - -->
+
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="../files/file.js"></script>
+</body>
+</html>
