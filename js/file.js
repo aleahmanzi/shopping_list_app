@@ -28,14 +28,6 @@ $(document).ready(function() {
 		};
 	});
 
-	/*hover and show delete img -- keep list stationary??
-	$('.list_area').on('mouseenter', 'li', function(){
-		$(this).children('.delete_img').show();
-	});
-	$('.list_area').on('mouseleave', 'li', function(){
-		$(this).children('.delete_img').hide();
-	});*/
-
 	/*cross off list items*/
 	$('.new_item').on('click', '.item_box', function(){
 		/*console.log("done");*/
